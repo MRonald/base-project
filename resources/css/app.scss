@@ -1,0 +1,14 @@
+$theme-colors: (
+    "orange": #ff2d20,
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+// Custom Styles
+p {
+    font-family: Arial, Helvetica, sans-serif;
+
+    span {
+        font-weight: bold;
+    }
+}
